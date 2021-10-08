@@ -252,12 +252,12 @@ function get20s(array) {
   /*Your Code Here*/
   let born = [];
 
-  // for (let i = 0; i < artists.length; i++) {
-  //   if (array[i].split('1901' < 2000) && array[i].split('years' > 2000)) {
-  //     born.push(array[i]);
-  //   }
-  // }
-  // return born;
+  for (let i = 0; i < artists.length; i++) {
+    if (array[i].years > '1901 - 2000') {
+      born.push(array[i].name);
+    }
+  }
+  return born;
 }
 console.log(get20s(artists));
 
@@ -329,9 +329,6 @@ function lotsOfArt(array) {
   if(array[i].paintings > 100) {
 
     piantingsAllot.push(array[i].name);
-    //  array[i].paintings > 100;
-    //  return array[i].name;
-
   }
   }
   return piantingsAllot;
