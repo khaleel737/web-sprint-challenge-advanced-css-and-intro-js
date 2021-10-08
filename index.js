@@ -218,8 +218,8 @@ console.log(artists[2].bio);
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
-const Vincent = artists[8].name = 'Vincent Van Gogh';
-console.log(artists);
+// const Vincent = artists[8].name = 'Vincent Van Gogh';
+// console.log(artists);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
@@ -253,9 +253,9 @@ function get20s(array) {
   let born = [];
 
   // for (let i = 0; i < artists.length; i++) {
-  //   if (array[i].split('years' < 2000) && array[i].split('years' > 2000)) {
+  //   if (array[i].split('1901' < 2000) && array[i].split('years' > 2000)) {
   //     born.push(array[i]);
-    // }
+  //   }
   // }
   // return born;
 }
@@ -307,7 +307,7 @@ function addArtist(array) {
     bio: 'Khaleel is a great poet, born on a spectacular day on sunday, people saw a miracle a fat ass babe that is sooooo lovable, the END!'
   });
 
-    return array && array.length;
+    return array;
 }
 
 console.log(addArtist(artists));
@@ -319,17 +319,22 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-const morePaint = [];
 
 function lotsOfArt(array) {
   /*Your Code Here*/
+  const piantingsAllot = [];
 
   for (let i = 0; i < array.length; i++) {
-  if(array[i].paintings > 100); {
-    morePaint.push(array[i]);
+
+  if(array[i].paintings > 100) {
+
+    piantingsAllot.push(array[i].name);
+    //  array[i].paintings > 100;
+    //  return array[i].name;
+
   }
   }
-  return array.name;
+  return piantingsAllot;
 }
 console.log(lotsOfArt(artists));
 
