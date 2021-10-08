@@ -218,8 +218,8 @@ console.log(artists[2].bio);
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
-// const Vincent = artists[8].name = 'Vincent Van Gogh';
-// console.log(artists);
+const vincent = artists[8].name = 'Vincent Van Gogh';
+console.log(artists);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
@@ -252,7 +252,7 @@ function get20s(array) {
   /*Your Code Here*/
   let born = [];
 
-  for (let i = 0; i < artists.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[i].years > '1901 - 2000') {
       born.push(array[i].name);
     }
