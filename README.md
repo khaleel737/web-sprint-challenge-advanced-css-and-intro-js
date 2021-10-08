@@ -22,12 +22,22 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
-2. Talk about 3 different things you can do to ensure your website is accessible. 
-3. How would you explain the concept of a variable to someone new to programming?
-4. What is the purpose of using functions in code?
-5. How do you access a key inside of an object inside of an array?
+1. How would you describe accessibility on the web to someone new to programming?
+Accessibility is the design and development of tools on the web that people can use, they vary from functions to styling to mark ups, they sum up the aspect of the web and how things work, technology is derived by front end and back end pertaining the parts needed for a user to access the application/website using front end technology and the back end functionality.
 
+2. Talk about 3 different things you can do to ensure your website is accessible. 
+    1. View port meta tags are needed for a website to work on mobile and other devices, this explains to the browser the width of multiple device screens and to pertain the width of a specific screen or rearrange to a new style if the screen is different.
+    2. @ media query, is an optimization and customization of the styles of a website to a specific screen, they can be adjusted and rearranged depending on the device and screen size.
+    3. Metric units are very important within the aspect of making a responsive design, its more advisable to use percentage measures rather than fixed measures in order for the % to adapt depending on the screen size.
+
+3. How would you explain the concept of a variable to someone new to programming?
+A variable is a value assigned to a scope (global scope or not) which can be assigned for either a value or operation in javascript, variables are used to assign and declare values in Javascript.
+
+4. What is the purpose of using functions in code?
+A function is an operation that a developer would like to use multiple times that pertains special instructions on how to operate and execute.
+
+5. How do you access a key inside of an object inside of an array?
+    object[index].parameter
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
@@ -37,7 +47,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 Follow these steps to set up your project:
 
 1. Fork the repo
-2. Go into canvas and connect your reop to codegrade
+2. Go into canvas and connect your repo to codegrade
 3. Clone your forked version of the repo
 4. DO NOT CREATE A BRANCH. You will be pushing your changes to the main/master today
 NOTE: tests will run in the JavaScript portion of this challenge only.
